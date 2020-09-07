@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+	background-color: white;
+	font-family: Helvetica, Arial;
+}
+
+body {
+	
+}
+
+#header {
+
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+
+	  background-color: #ddd;
+	  color: black;
+	
+	  display: float;
+	  text-align: left;
+	  font-weight: bold;
+	  color:grey;
+}
+.search {
+	display: flex;
+	text-align: right;
+	justify-content: space-between;
+
+}
+}
+
+p {
+	font-family: "Times New Roman";
+}
+
+#content {
+	background-image: url("https://ak.picdn.net/shutterstock/videos/25150022/thumb/1.jpg");
+	background-size: cover;
+	display: float;
+	text-align:left;
+}
