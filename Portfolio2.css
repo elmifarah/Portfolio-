@@ -1,0 +1,222 @@
+* {
+	margin:0;
+	padding: 0;
+	
+}
+
+body {
+	background-image: url("https://wallpaperaccess.com/full/1128684.jpg");
+	background-size: cover;
+	
+	
+ }
+
+header {
+	display: inline-flex; 
+	position: fixed; 
+	margin-left: 1200px;
+	position:fixed;
+	margin-top:-180px;
+}
+
+.menue ul li {
+	display: inline-flex;
+	list-style: none;
+	cursor:pointer;
+	padding:25px;
+	
+}
+
+.logo img {
+	width: 90px;
+	margin-top: -7px;
+	margin-right: 48px;
+	
+}
+
+.active {
+	color: grey
+}
+.activ {
+	color: grey;
+}
+
+.acti {
+	color: grey;
+}
+
+#headertwo {
+        background-color: none;
+    	width: 100%;
+    	text-align: right;
+	font-size: 1cm;
+	margin-top: 200px;
+	font-family: garamond;
+  	color: #7c7b85;
+	padding: 14px 16px;
+  	text-decoration: none;
+	margin-left: 100px ;
+  	text-align: left;
+  	font-weight: bold;
+  	color:#6e7785;
+	
+	  
+}
+
+.
+
+}
+
+#header h1 {
+	margin-left:50px;
+	
+}
+
+
+
+.sub-title {
+	width: 100%;
+	float: left;
+	
+	
+	}
+
+p {
+	width: 900px;
+	font-family: "Times New Roman";
+	font-size:20px;
+	line-height:25px;
+	color: white;
+	margin-right: 70px;
+}
+
+
+	
+
+.column {
+	overflow: auto;
+}
+
+.threecolumn {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	
+}
+
+.fourcolumns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	
+}
+
+.twocolumn{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 100px;
+	margin-left: 500px;
+	
+	
+	
+}
+.selfie  {
+	background-image:url("selfie2.jpeg");
+	background-size: cover;
+	width:300px;
+	height:330px;
+	max-width: 400px;
+}
+
+.mayden {
+	background-image:url("mayden.jpg");
+	background-size: cover;
+	width:400px;
+	height:250px;
+	margin-right:100px;
+	
+}
+
+.pilotscreenshot {
+	background-image:url("pilotscreenshot.png");
+	background-size: cover;
+	width:760px;
+	height:400px;
+}
+.trillville {
+	background-image:url("trillville.jpeg");
+	background-size: cover;
+	width:760px;
+	height:400px;
+}
+
+.manu {
+	background-image:url("manu.jpg");
+	background-size: cover;
+	width:760px;
+	height:460px;
+	justify-content: center;
+}
+.rolls {
+	background-image:url("rolls.jpg");
+	background-size: cover;
+	width:760px;
+	height:460px;
+	justify-content: center;
+}
+.banner {
+	padding: 5px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #92a6a6;
+	color: #2a324b;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #2a324b;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.aboutme {
+	margin-top: 50px;
+}
+
+
+.contact {
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+
+
+.h3 {
+	margin-left: 500px;
+	color: grey;
+	font-size:30px;
+	height:200px;
+	top:20px;
+}
+
+a {
+	margin-left: 550px;
+}
+
+@media screen and (max-width: 900px) {
+	.threecolumn {
+		display: grid;
+		grid-template-columns: 1fr ;
+	}
+
+@media screen and (max-width: 900px) {
+	.fourcolumns {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	@media screen and (max-width: 900px) {
+		.twocolumns {
+			display: grid;
+			grid-template-columns: 1fr;
+		}

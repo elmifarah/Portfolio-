@@ -8,8 +8,19 @@ body {
 	 background-size: cover;
 	
 }
+.container {
+	width: 100%
+	height:100%;
+	
+}
 
+.logo img {
+	width: 30px;
+	margin-top: -7px;
+	margin-right: 48px;
+}
 
+}
 #header {
         background-color: none;
         color: black;
@@ -20,7 +31,6 @@ body {
   	text-align: center;
   	padding: 14px 16px;
   	text-decoration: none;
-  	display: float;
   	text-align: left;
   	font-weight: bold;
   	color:grey;
@@ -36,24 +46,24 @@ body {
 } 
 
 
-}
-
 p {
 	font-family: "Times New Roman";
 }
 
 #content {
-	    line-height: 1.5;
-	    display: float;
-	    text-align:left;
-	    font-family: 'Heebo Black', sans-serif;
-	    letter-spacing: 3px;
-	    color: black;
-	    position: relative;
-	    overflow: auto;
-	    font-size: 100%;
+	position: absolute;
+	line-height: 1.5;
+	text-align:c entre;
+	font-family: 'Heebo Black', sans-serif;
+	letter-spacing: 3px;
+	color: black;
+	position: relative;
+	font-size: 100%;
 }
 
-content .h2 {
-	text-align: right;
+h2 {
+	width: 100%;
+	text-align: left;
+        display; block;
+	
 }
