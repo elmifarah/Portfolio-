@@ -12,15 +12,13 @@ body {
  }
 
 header {
-	display: inline-flex; 
 	position: fixed; 
-	margin-left: 1200px;
-	position:fixed;
-	margin-top:-180px;
+	top:0;
+	right:0;
 }
 
-.menue ul li {
-	display: inline-flex;
+header ul li {
+	display: inline-block;
 	list-style: none;
 	cursor:pointer;
 	padding:25px;
@@ -29,42 +27,27 @@ header {
 
 .logo img {
 	width: 90px;
-	margin-top: -7px;
-	margin-right: 48px;
 	
 }
 
 .active {
 	color: grey
 }
-.activ {
-	color: grey;
-}
-
-.acti {
-	color: grey;
-}
 
 #headertwo {
-        background-color: none;
-    	width: 100%;
     	text-align: right;
-	font-size: 1cm;
+	font-size: 50px;
 	margin-top: 200px;
 	font-family: garamond;
   	color: #7c7b85;
 	padding: 14px 16px;
   	text-decoration: none;
-	margin-left: 100px ;
+	margin: 0 auto;
+	width:90%;
+	
   	text-align: left;
   	font-weight: bold;
-  	color:#6e7785;
-	
 	  
-}
-
-.
-
 }
 
 #header h1 {
@@ -77,8 +60,6 @@ header {
 .sub-title {
 	width: 100%;
 	float: left;
-	
-	
 	}
 
 p {
@@ -101,7 +82,8 @@ p {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	margin-bottom: 100px;
-	margin-left: 100px;
+	margin: 0 auto;
+	width:90%;
 	
 }
 
@@ -114,14 +96,11 @@ p {
 	
 }
 
-.twocolumn{
+.twocolumns{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin-top: 100px;
-	margin-left: 500px;
-	
-	
-	
+	margin: 0 auto;
+	width:90%;	
 }
 .selfie  {
 	background-image:url("selfie2.jpeg");
@@ -133,10 +112,6 @@ p {
 
 .mayden {
 	background-image:url("mayden.jpg");
-	background-size: cover;
-	width:400px;
-	height:250px;
-	margin-right:100px;
 	
 }
 
@@ -186,22 +161,25 @@ p {
 
 
 .contact {
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 	margin-top: 50px;
 }
 
 
 
-.h3 {
-	margin-left: 500px;
+h3 {
+	text-align: center;
 	color: grey;
 	font-size:30px;
-	height:200px;
-	top:20px;
+	margin:0 auto;
+	margin-bottom:100px;
 }
 
 a {
-	margin-left: 550px;
+	display: grid;
+	margin-top: 100px;
+	margin: 0 auto;
+	
 }
 
 @media screen and (max-width: 900px) {
@@ -209,13 +187,14 @@ a {
 		display: grid;
 		grid-template-columns: 1fr ;
 	}
+}
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
 	.fourcolumns {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-	@media screen and (max-width: 900px) {
+	@media screen and (max-width: 600px) {
 		.twocolumns {
 			display: grid;
 			grid-template-columns: 1fr;
